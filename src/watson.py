@@ -9,7 +9,7 @@ class WatsonConversation:
             username=“00000000000000000000000000”,
             password=“0000000000000”,
             version='2016-09-20')
-        self.workspace_id=‘03581498519854719857’
+        self.workspace_id=‘000000000000000000’
 
     def get_output(self, user_text):
         response = self.conv.message(workspace_id=self.workspace_id,
